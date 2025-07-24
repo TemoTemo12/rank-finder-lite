@@ -19,6 +19,14 @@ export default {
 		},
 		extend: {
 			colors: {
+				// Search engine specific colors
+				'search-primary': 'hsl(var(--search-primary))',
+				'search-primary-hover': 'hsl(var(--search-primary-hover))',
+				'search-secondary': 'hsl(var(--search-secondary))',
+				'search-muted': 'hsl(var(--search-muted))',
+				'search-border': 'hsl(var(--search-border))',
+				'search-subtle': 'hsl(var(--search-subtle))',
+				
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
