@@ -1,10 +1,4 @@
-interface SearchResult {
-  id: string;
-  title: string;
-  url: string;
-  description: string;
-  domain: string;
-}
+import { SearchResult } from "@/services/searchService";
 
 interface SearchResultsProps {
   results: SearchResult[];
